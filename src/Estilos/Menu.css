@@ -1,0 +1,93 @@
+.root
+{
+    -fx-background-image: url(/Imagenes/MenuWallpaper.jpg);
+    -fx-background-repeat: stretch;   
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#TITULO
+{
+    -fx-font: 100px Tahoma;
+    -fx-text-fill: white;
+    -fx-stroke-width: 1;
+}
+
+#buttonJugar
+{
+    -fx-padding: 5 100 5 100;   
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: gray;
+    -fx-font-family: Cooper;
+    -fx-font-size: 16pt;
+    -fx-text-fill: white;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+#buttonJugar:hover
+{
+    -fx-padding: 5 100 5 100;   
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: gray;
+    -fx-font-family: Cooper;
+    -fx-font-size: 16pt;
+    -fx-text-fill: yellow;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+#buttonLogros
+{
+    -fx-padding: 5 93 5 93;   
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: gray;
+    -fx-font-family: Cooper;
+    -fx-font-size: 16pt;
+    -fx-text-fill: white;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+#buttonLogros:hover
+{
+    -fx-padding: 5 93 5 93;   
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: gray;
+    -fx-font-family: Cooper;
+    -fx-font-size: 16pt;
+    -fx-text-fill: yellow;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+#buttonJugar
+{
+    -fx-padding: 5 100 5 100;   
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: gray;
+    -fx-font-family: Cooper;
+    -fx-font-size: 16pt;
+    -fx-text-fill: white;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+#buttonJugar:hover
+{
+    -fx-padding: 5 100 5 100;   
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: gray;
+    -fx-font-family: Cooper;
+    -fx-font-size: 16pt;
+    -fx-text-fill: yellow;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}

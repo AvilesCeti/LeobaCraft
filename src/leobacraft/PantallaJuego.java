@@ -40,5 +40,5 @@ public class PantallaJuego
         primaryStage.setScene(pantalla);
         primaryStage.centerOnScreen();
     }
-
+    
 }

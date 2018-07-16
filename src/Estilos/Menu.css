@@ -9,8 +9,9 @@
 
 #TITULO
 {
-    -fx-font: 100px Tahoma;
-    -fx-text-fill: white;
+    
+    -fx-font: 80px Papyrus;
+    -fx-text-fill: #cccccc;
     -fx-stroke-width: 1;
 }
 
@@ -42,7 +43,7 @@
 
 #buttonLogros
 {
-    -fx-padding: 5 93 5 93;   
+    -fx-padding: 5 92 5 92;   
     -fx-border-color: #e2e2e2;
     -fx-border-width: 2;
     -fx-background-radius: 0;
@@ -55,7 +56,7 @@
 
 #buttonLogros:hover
 {
-    -fx-padding: 5 93 5 93;   
+    -fx-padding: 5 92 5 92;   
     -fx-border-color: #e2e2e2;
     -fx-border-width: 2;
     -fx-background-radius: 0;
@@ -66,9 +67,9 @@
     -fx-background-insets: 0 0 0 0, 0, 1, 2;
 }
 
-#buttonJugar
+#buttonOpcion
 {
-    -fx-padding: 5 100 5 100;   
+    -fx-padding: 5 80 5 80;   
     -fx-border-color: #e2e2e2;
     -fx-border-width: 2;
     -fx-background-radius: 0;
@@ -79,9 +80,35 @@
     -fx-background-insets: 0 0 0 0, 0, 1, 2;
 }
 
-#buttonJugar:hover
+#buttonOpcion:hover
 {
-    -fx-padding: 5 100 5 100;   
+    -fx-padding: 5 80 5 80;   
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: gray;
+    -fx-font-family: Cooper;
+    -fx-font-size: 16pt;
+    -fx-text-fill: yellow;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+#buttonSalir
+{
+    -fx-padding: 5 105 5 105;   
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: gray;
+    -fx-font-family: Cooper;
+    -fx-font-size: 16pt;
+    -fx-text-fill: white;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+#buttonSalir:hover
+{
+    -fx-padding: 5 104 5 104;   
     -fx-border-color: #e2e2e2;
     -fx-border-width: 2;
     -fx-background-radius: 0;

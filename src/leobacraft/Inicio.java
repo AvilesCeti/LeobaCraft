@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author avile
+ * @author AvilesCeti
  */
 public class Inicio
 {
@@ -51,11 +51,13 @@ public class Inicio
             pantalla=null;
             PantallaOpciones opciones=new PantallaOpciones(primaryStage);
         });
+        btnOpciones.setId("buttonOpcion");
         
         btnSalir.setOnAction(e->
         {
             System.exit(0);
         });
+        btnSalir.setId("buttonSalir");
         
         esquema.setAlignment(Pos.CENTER);
         esquema.setSpacing(25);

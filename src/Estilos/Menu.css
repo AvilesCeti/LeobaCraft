@@ -9,10 +9,13 @@
 
 #TITULO
 {
-    
-    -fx-font: 80px Papyrus;
-    -fx-text-fill: #cccccc;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-font: 70px Papyrus;
+    -fx-text-fill: black;
     -fx-stroke-width: 1;
+    -fx-padding: -10 25 0 25;
+    -fx-background-color: white;
 }
 
 #buttonJugar

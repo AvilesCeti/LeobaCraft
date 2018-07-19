@@ -6,3 +6,41 @@
     -fx-background-position: center center;
     -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
 }
+.progress-bar > .track
+{
+  -fx-text-box-border: forestgreen;
+  -fx-control-inner-background: palegreen;
+}
+
+#btnCancelar
+{
+    -fx-font: 16px Cooper;
+    -fx-background-color: gray;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-padding: 5 20 5 20;
+}
+#btnCancelar:hover
+{
+    -fx-font: 16px Cooper;
+    -fx-background-color: gray;
+    -fx-border-color: white;
+    -fx-text-fill: yellow;
+    -fx-padding: 5 20 5 20;
+}
+#btnJuego
+{
+    -fx-font: 16px Cooper;
+    -fx-background-color: gray;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-padding: 5 20 5 20;
+}
+#btnJuego:hover
+{
+    -fx-font: 16px Cooper;
+    -fx-background-color: gray;
+    -fx-border-color: white;
+    -fx-text-fill: yellow;
+    -fx-padding: 5 20 5 20;
+}

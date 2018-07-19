@@ -6,3 +6,19 @@
     -fx-background-position: center center;
     -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
 }
+
+#btnCancelar
+{
+    -fx-background-color: gray;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-padding: 5 20 5 20;
+}
+
+#btnCancelar:hover
+{
+    -fx-background-color: gray;
+    -fx-border-color: white;
+    -fx-text-fill: yellow;
+    -fx-padding: 5 20 5 20;
+}
